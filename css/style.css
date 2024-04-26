@@ -4,9 +4,13 @@
 :root{
     --font-logo: "Jost", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 
 body{
     background: var(--color-black);
+    overflow-y: hidden;
 }
 
 .header-logo-img{
@@ -89,4 +93,17 @@ font-family: var(--font-logo);
 font-weight: 500;
 font-size: 24px;
 color: #222;
+}
+
+
+
+/* register */
+
+.register{
+    position: relative;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 848px;
+border-color: var(--color-white);
 }
