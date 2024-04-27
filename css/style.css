@@ -255,6 +255,18 @@ text-align: center;
 color: #222;
 }
 
+
+
+.container2-reg-forgepass{
+    font-family: var(--font-logo);
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: var(--color-green);
+
+}
+
+
 /* container 3     blank*/
 
 .container3{
@@ -608,4 +620,61 @@ font-weight: 400;
 font-size: 32px;
 line-height: 241%;
 color: #222;
+}
+
+
+/*container7 forge password*/
+
+.container7{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 839px;
+background-color: #fff;
+display: flex;
+justify-content: start;
+flex-direction: column;
+padding: 10vh 0 0 0;
+}
+
+.container7-glav{
+    font-family: var(--font-logo);
+font-weight: 500;
+font-size: 48px;
+color: var(--color-black);
+margin: 10px auto;
+
+}
+
+.container7-input{
+    border: 2px solid var(--color-black);
+border-radius: 43px;
+width: 628px;
+height: 74px;
+
+font-family: var(--font-logo);
+font-weight: 500;
+font-size: 24px;
+color: var(--color-black);
+margin: 10px auto;
+
+}
+
+.container7-button{
+    border-radius: 43px;
+width: 337px;
+height: 73px;
+background-color: var(--color-orange);
+margin: 10px auto;
+padding-top: 20px;
+
+
+font-family: var(--font-logo);
+font-weight: 500;
+font-size: 24px;
+text-align: center;
+color: var(--color-white);
+
 }
