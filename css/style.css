@@ -858,13 +858,23 @@ font-weight: 500;
 font-size: 24px;
 color: var(--color-black);
 
-padding: 60px 90px;
+padding-top: 60px;
+padding-left: 90px;
+width: 280px;
 
 }
 
+.c9-pomni-time{
+    padding-top: 30px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
 
-
-
+.greenbc{
+    background-color: var(--color-green);
+}
 
 
 /*container10   sbrosparoli*/
@@ -927,3 +937,4 @@ color: var(--color-black);
     position: relative;
     left: 250px;
 }
+
