@@ -678,3 +678,23 @@ text-align: center;
 color: var(--color-white);
 
 }
+
+
+/*container8 accaunt*/
+.container8{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 839px;
+background-color: #fff;
+display: flex;
+justify-content: start;
+flex-direction: column;
+padding: 10vh 0 0 0;
+}
+
+.container8.{
+
+}
