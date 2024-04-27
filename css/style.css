@@ -558,7 +558,7 @@ color: var(--color-black);
     border-radius: 55px;
 width: 1320px;
 height: 839px;
-background-color: #fff;
+background-color: var(--color-black);
 display: flex;
 justify-content: start;
 padding: 10vh 0 0 0;
@@ -579,7 +579,7 @@ color: var(--color-green);
 font-weight: 600;
 font-size: 48px;
 line-height: 160%;
-color: var(--color-black);
+color: var(--color-white);
 
 }
 
@@ -591,17 +591,17 @@ color: var(--color-black);
 .container6-info1-info{
     border: 1px solid var(--color-green);
     text-align: center;
-    background-color: var(--color-green);
 border-radius: 100px;
 width: 195px;
 height: 53px;
+margin: 0 10px;
 
 
 font-family: var(--font-logo);
 font-weight: 400;
 font-size: 24px;
 line-height: 321%;
-color: var(--color-black);
+color: var(--color-white);
 
 }
 
@@ -612,9 +612,10 @@ color: var(--color-black);
 .container6-info2-info{
     margin: 20px;
     border-radius: 28px;
-width: 1196px;
+width: 701px;
 height: 105px;
-background-color: var(--color-orange);
+
+background-color: var(--color-green);
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 32px;
@@ -622,6 +623,47 @@ line-height: 241%;
 color: #222;
 }
 
+.container6-info2-2{
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+width: 483px;
+height: 347px;
+background-color: var(--color-orange);
+}
+.container6-info22{
+    display: flex;
+    flex-direction: row;
+}
+
+.container6-info2-2 span{
+    font-family: var(--font-logo);
+font-weight: 600;
+font-size: 40px;
+line-height: 192%;
+color: var(--color-black);
+
+}
+
+.container6-info2-2-icons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 130px;
+}
+
+.c6-info2-2-icon{
+    border-radius: 100%;
+fill: #222;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+width: 90px;
+height: 90px;
+padding: 5px;
+
+background-color: var(--color-black);
+}
 
 /*container7 forge password*/
 
@@ -680,7 +722,7 @@ color: var(--color-white);
 }
 
 
-/*container8 accaunt*/
+/*container8 accaunt / add pets*/
 .container8{
     position: relative;
     top: 80px;
@@ -755,4 +797,133 @@ color: var(--color-white);
 background-color: var(--color-orange);
 text-align: center;
 margin: 0 auto;
+}
+
+
+
+
+/*container9 */
+
+.container9{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 839px;
+background-color: var(--color-black);
+display: flex;
+justify-content: start;
+padding: 10vh 0 0 0;
+flex-direction: column;
+}
+.c9-column{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.c9-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.c9-pomni{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 19px;
+width: 576px;
+height: 161px;
+background-color: var(--color-white);
+}
+
+.c9-pomni-divcon{
+    background-color: var(--color-orange);
+    border-radius: 20px 0 0 20px;
+width: 121px;
+height: 161px;
+
+}
+
+.c9-pomni-icon{
+    margin: 30px 10px;
+    width: 100px;
+height: 100px;
+
+}
+
+.c9-pomni-name{
+    font-family: var(--font-logo);
+font-weight: 500;
+font-size: 24px;
+color: var(--color-black);
+
+padding: 60px 90px;
+
+}
+
+
+
+
+
+
+/*container10   sbrosparoli*/
+
+
+.container10{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 839px;
+background-color: var(--color-white);
+display: flex;
+justify-content: start;
+padding: 5vh;
+flex-direction: column;
+}
+
+.c10-button{
+    font-family: var(--font-logo);
+font-weight: 500;
+font-size: 24px;
+color: var(--color-black);
+
+}
+
+.c10-text{
+    margin-top: 50px;
+display: flex;
+flex-direction: column;
+text-align: center;
+
+    font-family: var(--font-logo);
+font-weight: 500;
+font-size: 32px;
+color: var(--color-black);
+
+}
+
+.c10-text-glav{
+    font-family: var(--font-logo);
+font-weight: 600;
+font-size: 48px;
+color: var(--color-black);
+
+}
+
+.c10-imgs{
+    position: relative;
+    top: 50px;
+}
+
+.c10-img1{
+    position: relative;
+    right: 100px;
+}
+
+.c10-img2{
+    position: relative;
+    left: 250px;
 }
