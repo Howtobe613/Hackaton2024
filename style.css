@@ -10,15 +10,7 @@ a{
 button{
     border: none;
 }
-.green{
-    color: var(--color-green);
-}
-.orange{
-    color: var(--color-orange);
-}
-.white{
-    border-color: var(--color-white);
-}
+
 body{
     background: var(--color-black);
     overflow-y: hidden;
@@ -91,6 +83,9 @@ color: #fff;
 text-align: center;
 margin-bottom: 40px;
 }
+.orange{
+    color: var(--color-orange);
+}
 
 .container{
     display: flex;
@@ -143,7 +138,7 @@ width: 281px;
 height: 54px;
 background-color: var(--color-green);
 text-align: center;
-padding-top: 0px;
+padding-top: 10px;
 }
 
 
@@ -235,7 +230,9 @@ color: #000;
     bottom: 150px;
 }
 
-
+.green{
+    color: var(--color-green);
+}
 .container2-reg-text-reg{
     font-family: var(--font-logo);
 font-weight: 600;
@@ -251,11 +248,11 @@ color: #222;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 5vh;
+    padding: 100px;
 }
 
 .container3-input{
-    margin: 2vh auto;
+    margin: 23px auto;
     border: 2px solid #000;
 border-radius: 43px;
 width: 567px;
@@ -326,200 +323,4 @@ font-weight: 500;
 font-size: 24px;
 color: #fff;
 margin:10px auto;
-}
-
-/* container4    profile*/
-
-.container4{
-    padding: 20px;
-    border-radius: 55px;
-width: 1320px;
-height: 839px;
-background-color: var(--color-black);
-position: relative;
-top: 125px;
-margin: 0 auto;
-display: flex;
-justify-content: start;
-}
-
-.container4-div1{
-    width:  100vh;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.container4-div2{
-    width:  100vh;
-    height: 100vh;
-}
-
-.container4-infos{
-    margin: 0 auto;
-    display: flex;
-    justify-content: start;
-}
-
-.container4-infos-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.container4-info{
-    border-radius: 19px;
-width: 209px;
-height: 165px;
-margin: 25px;
-background-color: var(--color-green);
-
-font-family: var(--font-logo);
-font-weight: 600;
-font-size: 24px;
-text-align: start;
-padding: 25px;
-color: var(--color-white);
-
-}
-
-.container4-avatar{
-    margin: 0 auto;
-    border-radius: 100%;
-    width: 190px;
-    height: 190px;
-}
-
-.conteiner4-button-glav{
-    font-family: var(--font-logo);
-font-weight: 600;
-font-size: 36px;
-color: var(--color-white);
-}
-
-.conteiner4-button{
-    padding: 20px;
-    border-radius: 19px;
-width: 483px;
-height: 263px;
-background-color: var(--color-orange);
-margin: 30px;
-display: flex;
-flex-direction: row;
-}
-
-.conteiner4-button-text{
-    font-family: var(--font-logo);
-font-weight: 400;
-font-size: 15px;
-line-height: 133%;
-color: var(--color-white);
-
-
-position: relative;
-top: 120px;
-}
-
-.container4-button2-img{
-    position: relative;
-    top: 42px;
-}
-
-/* container5    health*/
-
-.container5{
-    display: flex;
-    justify-content: start;
-}
-
-.container5-div{
-    padding-left: 100px;
-    padding-top: 100px;
-    width: 100vh;
-    height: 100vh;
-}
-
-.container5-div-glav{
-    font-family: var(--font-logo);
-font-weight: 600;
-font-size: 64px;
-color: var(--color-white);
-}
-
-.container5-div-dialog{
-    border-radius: 19px;
-    padding: 12px;
-width: 549px;
-height: 210px;
-background-color: var(--color-white);
-}
-
-.container5-div-dialog-glav{
-    font-family: var(--font-logo);
-font-weight: 400;
-font-size: 36px;
-color: var(--color-black);
-
-}
-
-.container5-div-dialog-text{
-    font-family: var(--font-logo);
-font-weight: 400;
-font-size: 16px;
-color: var(--color-black);
-
-}
-
-.container5-div-dialog-img{
-    position: relative;
-    bottom: 100px;
-}
-
-
-.container5-infos{
-    padding: 100px;
-    width: 120vh;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-}
-
-.container5-infos-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.container5-info{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 19px;
-width: 295px;
-height: 317px;
-background-color: var(--color-green);
-}
-
-.container5-info-glav{
-    font-family: var(--font-logo);
-font-weight: 500;
-font-size: 36px;
-color: var(--color-black);
-
-}
-
-.container5-info-text{
-    position: relative;
-    top: 150px;
-    font-family: var(--font-logo);
-font-weight: 400;
-font-size: 36px;
-color: var(--color-black);
-
-}
-
-.container5-info-text2{
-    position: relative;
-    top: 150px;
-    font-family: var(--font-famlily);
-font-weight: 400;
-font-size: 16px;
-color: var(--color-black);
 }
