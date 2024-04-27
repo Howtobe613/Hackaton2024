@@ -30,6 +30,17 @@ body{
     height: 100%;
     z-index: -5;
 }
+.back-img1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.back-img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .back-svg1{
     position: absolute;
     right: 0px;
@@ -419,7 +430,7 @@ position: relative;
 top: 120px;
 }
 
-.container4-button2-img{
+.container4-button2-img2{
     position: relative;
     top: 42px;
 }
@@ -449,7 +460,7 @@ color: var(--color-white);
     border-radius: 19px;
     padding: 12px;
 width: 549px;
-height: 210px;
+height: 100vh;
 background-color: var(--color-white);
 }
 
@@ -470,8 +481,9 @@ color: var(--color-black);
 }
 
 .container5-div-dialog-img{
-    position: relative;
-    bottom: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
 }
 
 
@@ -522,4 +534,78 @@ color: var(--color-black);
 font-weight: 400;
 font-size: 16px;
 color: var(--color-black);
+}
+
+
+/* container6 med cart*/
+
+.container6{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    border-radius: 55px;
+width: 1320px;
+height: 839px;
+background-color: #fff;
+display: flex;
+justify-content: start;
+padding: 10vh 0 0 0;
+flex-direction: column;
+padding: 50px;
+}
+.container6-glav{
+    font-family: var(--font-logo);
+font-weight: 600;
+font-size: 64px;
+line-height: 120%;
+color: var(--color-green);
+
+}
+
+.container6-name{
+    font-family: var(--font-logo);
+font-weight: 600;
+font-size: 48px;
+line-height: 160%;
+color: var(--color-black);
+
+}
+
+.container6-info1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container6-info1-info{
+    border: 1px solid var(--color-green);
+    text-align: center;
+    background-color: var(--color-green);
+border-radius: 100px;
+width: 195px;
+height: 53px;
+
+
+font-family: var(--font-logo);
+font-weight: 400;
+font-size: 24px;
+line-height: 321%;
+color: var(--color-black);
+
+}
+
+.container6-info1-info span{
+    position: relative;
+    bottom: 10px;
+}
+.container6-info2-info{
+    margin: 20px;
+    border-radius: 28px;
+width: 1196px;
+height: 105px;
+background-color: var(--color-orange);
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 32px;
+line-height: 241%;
+color: #222;
 }
