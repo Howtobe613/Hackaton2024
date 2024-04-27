@@ -366,6 +366,11 @@ display: flex;
 justify-content: start;
 }
 
+.c4-img{
+    width: 54px;
+    height: 54px;
+}
+
 .container4-div1{
     width:  100vh;
     height: 100vh;
